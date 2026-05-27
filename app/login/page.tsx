@@ -111,13 +111,7 @@ export default function LoginPage() {
           </button>
         </form>
       </div>
-      <p className="mt-8 max-w-sm text-center text-xs text-zinc-500">
-        No public registration. The first admin is created with{" "}
-        <code className="rounded bg-zinc-200 px-1 py-0.5 text-[0.7rem] dark:bg-zinc-800">
-          pnpm run create-first-admin
-        </code>{" "}
-        in admin-service; additional admins are added under User management.
-      </p>
+
     </div>
   );
 }
