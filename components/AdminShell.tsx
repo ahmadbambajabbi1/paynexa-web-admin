@@ -17,6 +17,7 @@ const groups: { title: string; items: NavItem[] }[] = [
     items: [
       { href: "/kyc-applications", label: "Professional KYC", icon: "shield" },
       { href: "/personal-kyc-applications", label: "Personal KYC", icon: "shield" },
+      { href: "/verifications", label: "Verification codes", icon: "shield" },
     ],
   },
   {
