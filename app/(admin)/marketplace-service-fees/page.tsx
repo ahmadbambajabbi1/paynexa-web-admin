@@ -172,7 +172,7 @@ export default function MarketplaceServiceFeesPage() {
           <button
             type="submit"
             disabled={submitting}
-            className="rounded-xl bg-gambian-blue px-5 py-2.5 text-sm font-semibold text-white shadow-sm disabled:opacity-50"
+            className="rounded-xl bg-primaryColorBlack px-5 py-2.5 text-sm font-semibold text-white shadow-sm disabled:opacity-50"
           >
             {submitting ? "Saving…" : "Save fee rules"}
           </button>

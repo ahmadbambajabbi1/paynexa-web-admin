@@ -142,7 +142,7 @@ export function ProductTypeFieldDefinitionsEditor({ value, onChange }: Props) {
                       onChange={(e) =>
                         updateAt(index, { required: e.target.checked })
                       }
-                      className="h-4 w-4 rounded border-gray-300 text-gambian-blue focus:ring-gambian-blue"
+                      className="h-4 w-4 rounded border-gray-300 text-primaryColorBlack focus:ring-primaryColorBlack"
                     />
                     Required (default on)
                   </label>

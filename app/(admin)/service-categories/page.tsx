@@ -92,7 +92,7 @@ export default function ServiceCategoriesPage() {
         <button
           type="button"
           onClick={() => setShowCreate(true)}
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-gambian-blue px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950"
+          className="inline-flex items-center justify-center gap-2 rounded-xl bg-primaryColorBlack px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950"
         >
           <i className="fas fa-plus" aria-hidden />
           New category
@@ -215,7 +215,7 @@ export default function ServiceCategoriesPage() {
                   type="checkbox"
                   checked={active}
                   onChange={(e) => setActive(e.target.checked)}
-                  className="mt-1 h-4 w-4 rounded border-gray-300 text-gambian-blue focus:ring-gambian-blue"
+                  className="mt-1 h-4 w-4 rounded border-gray-300 text-primaryColorBlack focus:ring-primaryColorBlack"
                 />
                 <span>
                   <span className="font-medium">Active</span>
@@ -241,7 +241,7 @@ export default function ServiceCategoriesPage() {
                 <button
                   type="submit"
                   disabled={submitting}
-                  className="rounded-xl bg-gambian-blue px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950 disabled:opacity-50"
+                  className="rounded-xl bg-primaryColorBlack px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950 disabled:opacity-50"
                 >
                   {submitting ? "Saving…" : "Create category"}
                 </button>

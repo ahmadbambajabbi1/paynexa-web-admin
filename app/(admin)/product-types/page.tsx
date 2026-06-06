@@ -65,7 +65,7 @@ export default function ProductTypesPage() {
         <button
           type="button"
           onClick={() => setShowCreate(true)}
-          className="inline-flex items-center justify-center gap-2 rounded-xl bg-gambian-blue px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950"
+          className="inline-flex items-center justify-center gap-2 rounded-xl bg-primaryColorBlack px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950"
         >
           <i className="fas fa-plus" aria-hidden />
           New product type
@@ -93,7 +93,7 @@ export default function ProductTypesPage() {
                 className="flex flex-col gap-4 p-6 transition hover:bg-gray-50/80 dark:hover:bg-gray-800/50 lg:flex-row lg:items-start lg:justify-between"
               >
                 <div className="flex min-w-0 flex-1 items-start gap-4">
-                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-gambian-blue dark:bg-blue-950 dark:text-blue-200">
+                  <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-100 text-primaryColorBlack dark:bg-blue-950 dark:text-blue-200">
                     <i className="fas fa-tags text-xl" aria-hidden />
                   </div>
                   <div>
