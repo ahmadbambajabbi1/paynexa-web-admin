@@ -22,7 +22,8 @@ const groups: { title: string; items: NavItem[] }[] = [
   },
   {
     title: "Catalog",
-    items: [{ href: "/product-types", label: "Product types", icon: "box" }],
+    items: [{ href: "/product-types", label: "Product types", icon: "box" },
+      { href: "/operating-countries", label: "Operating countries", icon: "box" }],
   },
   {
     title: "Service marketplace",

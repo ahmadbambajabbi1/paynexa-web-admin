@@ -148,7 +148,7 @@ export function CreateProductTypeForm({
             type="checkbox"
             checked={lawyerPricingEnabled}
             onChange={(e) => setLawyerPricingEnabled(e.target.checked)}
-            className="mt-1 h-4 w-4 rounded border-gray-300 text-gambian-blue focus:ring-gambian-blue"
+            className="mt-1 h-4 w-4 rounded border-gray-300 text-primaryColorBlack focus:ring-primaryColorBlack"
           />
           <span>
             <span className="font-medium">Lawyer pricing enabled</span>
@@ -162,7 +162,7 @@ export function CreateProductTypeForm({
             type="checkbox"
             checked={agentPricingEnabled}
             onChange={(e) => setAgentPricingEnabled(e.target.checked)}
-            className="mt-1 h-4 w-4 rounded border-gray-300 text-gambian-blue focus:ring-gambian-blue"
+            className="mt-1 h-4 w-4 rounded border-gray-300 text-primaryColorBlack focus:ring-primaryColorBlack"
           />
           <span>
             <span className="font-medium">Agent pricing enabled</span>
@@ -192,7 +192,7 @@ export function CreateProductTypeForm({
         <button
           type="submit"
           disabled={submitting}
-          className="rounded-xl bg-gambian-blue px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950 disabled:opacity-50"
+          className="rounded-xl bg-primaryColorBlack px-5 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-blue-950 disabled:opacity-50"
         >
           {submitting ? "Queueing…" : "Create product type"}
         </button>
