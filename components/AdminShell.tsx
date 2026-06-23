@@ -26,6 +26,14 @@ const groups: { title: string; items: NavItem[] }[] = [
       { href: "/operating-countries", label: "Operating countries", icon: "box" }],
   },
   {
+    title: "Escrow",
+    items: [
+      { href: "/transaction-fees", label: "Transaction fees", icon: "box" },
+      { href: "/transactions", label: "Transactions", icon: "dash" },
+      { href: "/escrow-disputes", label: "Escrow disputes", icon: "shield" },
+    ],
+  },
+  {
     title: "Service marketplace",
     items: [
       { href: "/service-categories", label: "Service categories", icon: "box" },
