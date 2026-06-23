@@ -1,8 +1,8 @@
 /** Base URL of admin-service (no trailing slash). */
 const rawAdminApiBaseUrl =
   process.env.NEXT_PUBLIC_ADMIN_API_URL ??
-  // "https://paynexa-admin-service-production.up.railway.app" ; 
-  "http://127.0.0.1:5006"
+  "https://paynexa-admin-service-production.up.railway.app" ; 
+  // "http://127.0.0.1:5006"
 
 export const ADMIN_API_BASE_URL = rawAdminApiBaseUrl
   .replace(/\/$/, "")
